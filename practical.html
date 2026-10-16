@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>实践理性批判 · 康德三大批判</title>
+<meta name="description" content="《实践理性批判》深度导读：道德律作为理性事实、绝对命令与准则、敬重作为道德动机、善恶概念的自由主义秩序、自由公设、至善的辩证论与三大公设。逐节展开知识点与论证过程。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="康德三大批判">
+<meta property="og:title" content="实践理性批判 · 深度导读">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-practical">
+
+<div class="progress-bar" id="progressBar"></div>
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html">康德三大批判</a>
+    <ul>
+      <li><a href="index.html">总览</a></li>
+      <li><a href="pure.html">纯粹理性批判</a></li>
+      <li><a href="practical.html" class="active">实践理性批判</a></li>
+      <li><a href="judgment.html">判断力批判</a></li>
+      <li><a href="map.html">论证地图</a></li>
+      <li><a href="concepts.html">术语词典</a></li>
+      <li><a href="life.html">生平时代</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="sub-nav">
+  <div class="wrap">
+    <a href="#overview">总览</a>
+    <a href="#intro">导言·任务</a>
+    <a href="#fact">道德律·理性事实</a>
+    <a href="#law">法则与准则</a>
+    <a href="#motive">敬重与动机</a>
+    <a href="#good-evil">善与恶</a>
+    <a href="#dialectic">辩证论·至善</a>
+    <a href="#postulates">三大公设</a>
+    <a href="#conclusion">结语言录</a>
+    <a href="#legacy">影响与批评</a>
+    <a href="#read">阅读建议</a>
+  </div>
+</div>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">KRITIK DER PRAKTISCHEN VERNUNFT · 1788</div>
+    <h1>实践理性批判</h1>
+    <p class="sub">纯粹理性何以能够是实践的？——道德律不需要从经验借来任何权威，它自己就是意志的立法者。本页按原书结构（分析论：原理、概念、动机；辩证论：至善；方法论：道德教育）逐节展开，并以"理性事实""自由的证成""至善的公设推导"三处做论证的逐步还原。</p>
+  </div>
+</header>
+
+<!-- 论证链总览 -->
+<section class="sec reveal" id="argmap">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>本批判链·速览</h2>
+      <span class="span">总问题 → 关键推论 → 结论</span>
+    </div>
+    <div class="sec-desc">《实践理性批判》的完整推导链（含出处标注）见<a href="map.html#practical" style="color:var(--accent-dark);font-weight:600;">体系论证地图</a>。简版：</div>
+    <div class="arg-map">
+      <div class="am-body">
+        <div class="am-node"><div class="am-num">总</div><div class="am-txt"><b>纯粹理性自身能够是实践的吗？（道德律何以直接规定意志）</b></div></div>
+        <div class="am-arrow">↓ 排除质料原则</div>
+        <div class="am-node"><div class="am-num">1</div><div class="am-txt"><b>一切以欲求对象为根据的原则都是经验性的——只能是假言命令</b><small>定理I–IV</small></div></div>
+        <div class="am-arrow">↓ 唯一的候选</div>
+        <div class="am-node"><div class="am-num">2</div><div class="am-txt"><b>道德法则＝纯形式：准则的普遍立法性</b><small>唯一命令</small></div></div>
+        <div class="am-arrow">↓ 事实与自由</div>
+        <div class="am-node"><div class="am-num">3</div><div class="am-txt"><b>道德律作为"理性的事实"被意识 → 自由被揭示（不必证明）</b><small>§5–6</small></div></div>
+        <div class="am-arrow">↓ 完整对象</div>
+        <div class="am-node"><div class="am-num">4</div><div class="am-txt"><b>至善（德福一致）为实践理性对象 → 背反 → 三大公设（自由/不朽/上帝）</b><small>辩证论</small></div></div>
+        <div class="am-arrow">↓ 收束</div>
+        <div class="am-node end"><div class="am-num">═</div><div class="am-txt"><b>结论：实践理性优先；道德是理性的最高关切；"头上的星空与心中的道德律"。</b></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 总览 ==================== -->
+<section class="sec reveal" id="overview">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>总览：第二批判</h2>
+      <span class="span">与《奠基》的关系</span>
+    </div>
+    <div class="struct-box">
+      <div class="sb-title">著作档案</div>
+      <table>
+        <tr><td>出版</td><td>1788年春，里加（哈特诺赫出版社）</td></tr>
+        <tr><td>结构</td><td>导言 → 第一部：纯粹实践理性分析论（原理 → 概念 → 动机）→ 辩证论 → 第二部：纯粹实践理性的方法论 → 结论</td></tr>
+        <tr><td>总问题</td><td>纯粹理性如何能够是实践的？（道德律何以直接规定意志）</td></tr>
+        <tr><td>先行著作</td><td>《道德形而上学奠基》（Grundlegung，1785）——三大批判之间最关键的桥梁</td></tr>
+        <tr><td>一句话回答</td><td>道德律作为"理性的事实"直接向意志颁布命令；自由因道德律的可意识性而得到确证（且只能倒转地确证）</td></tr>
+      </table>
+    </div>
+    <div class="body-text">
+      <p><strong>先说《奠基》：第二批判的必要前奏。</strong>第二批判不是从零开始的著作——它站在《道德形而上学奠基》（1785）的结论上展开。在《奠基》中，康德用三个层层递进的段落完成了道德哲学的地基清理：第一章<strong>从普通道德理性知识出发</strong>——一个从未学过哲学的人也懂得"出于义务"与"合乎义务"的区别，懂得善良意志是自在的善，哲学的任务只是把这种普通理性的"知识"提升为科学的清晰（康德的整个伦理学计划正是从"庶民的道德意识"出发的"形而上学奠基"）；第二章<strong>从通俗道德哲学过渡到道德形而上学</strong>——从意志概念、他律与自律之别、准则与法则之别推出绝对命令的三种表述（普遍法则、人性目的、自律/目的王国——与《奠基》相同的三大公式，本站"绝对命令"词条已述），并批判一切"经验性根基"（幸福、道德感、完善等原则在他律批判中一并被清除）；第三章<strong>从道德形而上学过渡到纯粹实践理性批判</strong>——这里出现了著名的"循环"问题：道德律为自由立法，自由为道德律提供可能性条件——相互证成，何解？《奠基》第三章对这一循环问题的自我辩护（自由与自律相互揭明）被学界普遍认为不充分，<strong>第二批判正是对这个悬而未决问题的正面回答</strong>——通过"理性事实"学说走出循环。</p>
+      <p><strong>两书的分工。</strong>《奠基》问"道德的最高原则是什么"并给出绝对命令；《实践理性批判》问"这个原则的实在性（有效性）从何而来"并回答：<strong>道德律不可推演，它作为事实被给予</strong>——是纯粹理性对意志的直接立法这一无可否认的意识。因此第二批判的"分析论"不再像第一批判那样问"经验何以可能"（先验演绎式的证权），而是把道德律"在其实在性中被意识到"这一点作为全部展开的出发点。这是两批判结构上的惊人对比：<strong>理论理性必须为自己争地盘，实践理性直接以立法为事实</strong>——康德由此确立"实践理性优先于理论理性"的论纲。</p>
+      <p><strong>历史背景。</strong>写作第二批判时（1786-87），康德刚经历《纯粹理性批判》与《奠基》引发的论战（雅可比—泛神论之争、舒尔策的怀疑论对先验演绎的攻击），对"批判哲学能否给道德立法"的普遍质疑深为警觉；同时普鲁士的腓特烈大帝刚去世（1786），继任者腓特烈·威廉二世推行宗教反动（1788年沃尔纳（Wöllner）教令），康德随后在《单纯理性限度内的宗教》(1793)中陷入出版审查风波——他因此在《学科之争》(1798)发表著名申明：思想自由与国王陛下对哲学的宽容不可辱。<strong>第二批判中的"实践理性法庭"主题与其时代语境紧密相关：道德不因信仰而立，也不因权威而倒</strong>——康德在本书序言中明确宣布：批判哲学的任务正是查明，纯粹理性本身能否独立地规定意志；道德的根据只能在纯粹理性自身之中寻找。</p>
+      <p><strong>文本版本。</strong>第二批判只有一个版本（1788初版，1792年末有较小改动的第二版，学界通常视两版无实质理论差异，页码按普鲁士科学院版KpV 5:1-163通引）。与《奠基》的行文体裁差异明显：《奠基》是教学性的、层层递进的简明文字；《实践理性批判》则更"批判性"、更艰难——命题排列紧凑，论证呈压缩的晶体状态。读者宜以"命题为单位"读本书，而非以"段落为单位"。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 导言 ==================== -->
+<section class="sec reveal" id="intro">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>导言：与第一批判的反向结构</h2>
+      <span class="span">实践理性的定义</span>
+    </div>
+    <div class="body-text">
+      <p>开篇定义："凡是把表象作为存在于现实之中的东西之原因的能力，就是<strong>实践的能力</strong>。"理论理性只是"描述"对象是什么；实践理性要"让应当的东西发生"。康德立刻提出全书纲领性问题：<strong>纯粹理性自身就足以规定意志吗？还是它必须作为经验制约的主体借某些愉悦感才能规定意志？</strong>简言之：仅凭理性，不做任何利益的算计，能否直接产生行动的命令？</p>
+      <p>这个问题在康德哲学中比看起来的要危险得多。因为第一批判的结论是：理念（自由、上帝、灵魂）没有<strong>理论知识</strong>的实在性。如果这些理念因此也无任何实践的实在性，道德便无根基——一切命令都得从"偏好与聪明"（经验性原则）借力，那正是《奠基》第二章判为他律的诸原则。因此第二批判必须论证<strong>一个方向相反的命题</strong>："纯粹理性是自身实践的"——不是作为工具，而是作为本源立法者。<strong>全书的基本进路：</strong>先证明理性自身能够是实践的（分析论第一章），再展开其内容（善恶、动机、道德感），最后处理由此而来的"幸福问题"（辩证论——人对道德世界的正当希望）。</p>
+      <p>导言另一定名之语值得一记："实践理性批判的研究对象是<strong>纯粹实践理性的可能性的条件</strong>，即其直接立法的可能性条件"——它不必像理论理性那样证明对象如何符合知识（哥白尼翻转），而要证明法则是<strong>如何直接规定意志</strong>的。两个批判的镜像结构与"对象—知识关系"的两种方向，由此展开。</p>
+      <p><strong>"实践"的精确含义。</strong>康德的"实践"（praktisch）不等于"实际应用的"或"实用的"——它指的是<strong>意志的规定与行动的发生</strong>这个领域本身。理论认识问"什么在场"；实践关切问"什么应当通过行动成为现实"。由此有了那个著名的对比句：理论理性的批判回答"知识如何可能"（对象被给予认识），实践理性的批判回答"法则如何能直接是意志的规定根据"（认识不被给予、而欲望性能力自身被规定）。这个区分后来被海德格尔、伽达默尔一路继承："实践知识"（phronesis 传统）作为独立于"理论认识"的意义域，其现代谱系正是从第二批判的这条定义开始的。</p>
+      <p><strong>一个容易忽略的论证顺序。</strong>许多读者期待"先证明自由，再推出道德律"——第二批判偏偏倒着来：从道德律的意识（事实）出发，再去确证自由。这不是任性，而是唯一活路：第一批判已经证明，自由（作为物自体层面的因果性）<strong>不可能</strong>被理论证明（不可经验直观、不可从现象推出）；假如道德律的存在也依赖"先证明自由"，那么整个道德领域就悬空了。康德的做法是让道德律自己显明（它是自明的意识事实），再由"应当蕴含能够"的通道反向照亮自由——<strong>自由不被证明，而被"揭示"为道德意识的内在蕴含</strong>。这一顺序上的倒转是理解全书一切看似奇怪的结构（为什么演绎不需要、为什么自由在后不在前）的钥匙。</p>
+      <h4>经验性实践原则的排除</h4>
+      <p>既然道德法则不能是经验性的（否则它只是"聪明诀窍"），第一步就是彻底排除经验性原则。康德在分析论开首便摆出排除法的裁决：经验性原则（幸福原则、道德感原则、完善原则、上帝意志原则——凡以"被欲求的结果"或任何"内容"为根据者）都只能给意志提供<strong>假言的必然性</strong>（目的给定、命令才起；目的改变、命令失效），而道德要求的命令是绝对的。这不是"效果更差"的经验问题，而是<strong>逻辑身份错位</strong>：经验性的"如果—就"永不可能是无条件的命令。第二批判在这点上比《奠基》重复但更明确地重申"诸伦理学的经验原则他律"的判断。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 理性事实 ==================== -->
+<section class="sec reveal" id="fact">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>分析论核心：道德律作为理性事实</h2>
+      <span class="span">Faktum der Vernunft</span>
+    </div>
+    <div class="body-text">
+      <p>第二批判最著名、也最富争议的学说是"理性的事实"。位置在分析论第一章的定理IV（Theorem IV）及其附释：康德宣布——道德律不是从经验发现的，也不是从纯粹理论理性推出的；它<strong>把自己呈现为纯粹理性的事实</strong>（als Factum der Vernunft）。</p>
+      <p><strong>为什么道德律不可从经验推出</strong>：经验的种种事例至多显示"人们碰巧这样行动"，不能推出"必然应当如此"；更糟的是，历史与内心观察从未发现过完全不出于爱好而纯然出于义务的行动——连自己心底的动机也永远可能自欺。所以经验根本不能充当道德律的来源。<strong>为什么也不可从理论理性推出</strong>：第一批判已证纯粹理论理性只能认识现象，不能建立自由的神圣因果性。而道德律预设自由。因此——既不能由经验证明、也不能由推理证明，却确凿无疑地被意识到：<strong>它只能作为事实被给予</strong>。</p>
+      <p>必须正确理解"事实"一词的两个层次。第一层：<strong>不是经验的事实</strong>（不是"我们事实上如此行动"——休谟式的事实）；第二层：<strong>是意识的事实</strong>（Faktum = 被做成、被给予之事）——纯粹理性自己立法的意识"不可否认地"定在。这不是心理学描述，而是<b>一种规范性的自明</b>：纯粹实践理性"在自身中包含着运用法则的根据"——用康德的话说，道德律"以无条件的必然性被表象"，这种必然性不是从外而来，而是"理性的自我立法"的内在事实。</p>
+      <p><strong>何以此事实同时证明自由。</strong>分析论 §6 的名句："道德律是纯粹意志的唯一法则，它把意志设定为自由的。"推演结构（在后文"自由的证成"论证还原中详细展开）：意志之被无条件的法则规定，只有在意志自由（能自因地行动）的前提下才可能理解；我们意识到了这种规定（理性的事实）；所以我们的意志是自由的——<strong>由道德律的实在性，自由的实在性直接被给出</strong>。这个方向必须紧紧抓住：<strong>不是先证明自由，再推出道德律（理论理性的路——第一批判已封死）；而是先意识到道德律，自由的实在性作为内在蕴含随之被建立。</strong>批判哲学在第二批判的方向箭头，恰好与《奠基》第三部分的顺序倒转。</p>
+      <p><strong>对"循环"的最终解决。</strong>《奠基》留下问题：道德律为自由奠基，自由为道德律奠基，循环！第二批判 §5-§6 的解决方案：先前似乎循环，是因为我们试图"推出"二者中的任何一个。但一旦看清道德律是意识的事实、自由是其隐含的实在性条件，二者就不再"互推"——而是"<strong>同一个事实的两个面向</strong>"：道德律是自由的认识性表达（ratio cognoscendi），自由是道德律的实在性根据（ratio essendi）。康德的原文表述极精警：自由是道德律的存在理由（ratio essendi），道德律是自由的认识理由（ratio cognoscendi）。——"道德律使我首先意识到自由"。这是循环问题在第二批判中的标准答案。</p>
+      <p><strong>争议。</strong>"理性的事实"一说康德学界聚讼两百年：①哈曼、早期叔本华讥其"用'事实'偷换'证明'"——"以诉诸良心取代论证"；②新康德派（如Paulsen）视其为康德"哲学不彻底处"；③亨利希（Dieter Henrich）与当代构造论解读（科斯嘉、罗尔斯）以不同方式把它重新纳入论证性框架：或视其为"实践理性的自我设证"（实践态度的不可避免性），或视其为道德哲学必须接受的"建构起点"。④贝克 Lewis White Beck（经典英语研究《康德实践理性批判评注》的作者）对"事实"的多义性做了最全面的技术分析（意识的事实/行动的事实双重面相）。理解的关键：<strong>它不是论证链上偷懒的一环，而是康德对"规范性自明性"身份的本体论定位：道德律既非理论演绎所能把握，也非经验归纳所能触及，它只在对行动的"应当"意识之中向"行动者"显明。</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 法则与准则 ==================== -->
+<section class="sec reveal" id="law">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>法则、准则与意志的规定</h2>
+      <span class="span">法则的普遍性形式</span>
+    </div>
+    <div class="body-text">
+      <p>第二批判以更严的"定理"形式重述了实践理性的基本原则。<strong>定理I</strong>：凡把欲求能力的对象（质料）预设为意志根据的实践原则，都是经验性的、不能给出普遍法则。<strong>定理II</strong>：一切质料性实践原则都归属于自爱／幸福这一普遍原则之下——质料原则无论花样多少（快乐、荣誉、权力……），归根到底都是"对自己状态的爱护"，形式上属于同一族。<strong>定理III</strong>：一个理性存在者若把质料原则作为最高条件，就只能有假言的"命令"——目的被给定了命令才成立；这种命令属于"审慎的规则"（Geschicklichkeit）而非道德。<strong>定理IV</strong>：意志的法则必须具有<strong>纯粹形式</strong>——"凡是对一个理性存在者普遍有效的法则，其表象必须本身成为意志的规定根据"，即：意志的规定根据是法则的<strong>普遍性形式</strong>，而完全不是任何内容。这是康德伦理学著称"形式主义"的严格版本——形式不是"空白的一无所有"，而是"可普遍性"这一<strong>形式的实质条件</strong>：凡不能被一切理性者无矛盾地采用的准则，都不可能是法则。</p>
+      <p><strong>准则（Maxime）</strong>与<strong>法则（Gesetz）</strong>：准则是行动者主观采用的原则（"只要有利我即说谎"），法则是对一切理性意志客观必然的原则。道德判断的<strong>形式标准</strong>：我的准则能否被思想为普遍法则？——"普遍化的可思想性"检验。著名的检验例子（借钱的虚假诺言、自杀、荒废才能、冷漠对待他人之急难——四个例证与《奠基》一致）都以"意志的自相矛盾"为仲裁：说谎的准则普遍化后所有人都说谎→诺言制度本身崩塌→我"不能愿意"我借钱的诺言制度无效这一普遍状态（不是"不愿后果"，而是愿的<strong>形式自毁</strong>）。</p>
+      <p><strong>第二批判的"唯一命令"。</strong>康德在 §7 前后把一切实践规则归总为一条本源命令：<strong>"要这样行动，使你的意志的准则任何时候都能同时被视为普遍立法的原则。"</strong>（Handle so, daß die Maxime deines Willens jederzeit zugleich als Prinzip einer allgemeinen Gesetzgebung gelten könne.）——比《奠基》的普遍法则公式更精炼、更"宪法性"：注意措辞"准则能够被视为立法原则"，立法性的自律身份在这里被直接写进命令的形式。这一表述被视为绝对命令<strong>在第二批判中的最终形态</strong>。</p>
+      <p><strong>人格的尊严：自律作为奠基性规定。</strong>KpV在分析论第一部分最富感染力的段落（§8的"纯粹实践理性原则之演绎"附释）中宣布：道德律在人心中的尊严感来源在于理性存在者的自律——意志由自身立法；一切价值都以人格为条件。物有<strong>价格</strong>（Preis，可等价替换），人有<strong>尊严</strong>（Würde，无价、不可交换）——这对范畴在《奠基》已立，第二批判以"人格的自主性"再次立稳。"谁把自己看轻，把自己当作物——就放弃了人格。" 康德由此把道德哲学的尊严问题确立为现代伦理学的核心议题之一。</p>
+
+      <h4>义务、行动的两重性质与"出于义务"</h4>
+      <p>第二批判与《奠基》共同坚守一个判断：<strong>只有"出于义务"（aus Pflicht）的行动才有道德价值</strong>。"合乎义务"（pflichtmäßig）——结果合于法则而行——未必道德（若动机是算计或爱好）；只有当行动<strong>因为</strong>是义务而被选择，动机中纯粹敬重法则本身时，行动才携带道德价值。这个"动机纯度"标准正是后世批评的靶心（席勒的讽刺、黑格尔的"形式主义"指控、施莱尔马赫的情感伦理反击），但也是康德伦理学难以让步的根基：<strong>若无动机的区分，"道德"就只成为外在合规性，失去其规范性身份。</strong></p>
+    </div>
+
+    <div class="arg-box">
+      <div class="arg-label">论证还原 · 道德律的形式性与普遍性</div>
+      <div class="arg-title">定理I–IV的链条</div>
+      <div class="arg-en">KpV 5:21–31 概要</div>
+      <div class="arg-step">
+        <div class="arg-num">1</div>
+        <div class="arg-body"><h5>质料原则必是经验的（定理I）</h5><p>凡以"欲求的对象"为意志根据者，其根据是欲望/情绪之<b>感受</b>——感受仅对感受主体有效，不可能对一切理性者必然有效。</p></div>
+      </div>
+      <div class="arg-step">
+        <div class="arg-num">2</div>
+        <div class="arg-body"><h5>质料原则同归于幸福（定理II）</h5><p>诸特殊对象的欲望流可不同，但作为"自身状态之爱护"同属一个总原则——幸福。故经验性实践原则的"家族"只有一个：自爱/幸福。</p></div>
+      </div>
+      <div class="arg-step">
+        <div class="arg-num">3</div>
+        <div class="arg-body"><h5>幸福原则只能是假言的"明智规则"（定理III）</h5><p>幸福不能先天地被决定（个体差异不可通约），它至多给出一般性<b>经验</b>指引；其命令永远是"如果—就"式的手段规则（聪明），不是绝对命令。</p></div>
+      </div>
+      <div class="arg-step">
+        <div class="arg-num">4</div>
+        <div class="arg-body"><h5>法则必须由纯粹形式规定意志（定理IV）</h5><p>排除一切质料后，意志规定根据只剩下普遍<b>立法形式</b>——准则的"可普遍性"。凡理性者皆同有这一形式条件，故具有对一切理性意志的必然性——这是唯一可能的道德法则形态。</p></div>
+      </div>
+      <div class="arg-concl"><b>结论：</b>道德律是纯粹形式的、普遍的、直接立法的——不是众多价值中的一种，而是任何行动成为"道德判断之对象"的先天条件。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 敬重与动机 ==================== -->
+<section class="sec reveal" id="motive">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>敬重：唯一的道德动机</h2>
+      <span class="span">Triebfeder · Achtung</span>
+    </div>
+    <div class="body-text">
+      <p>有个著名的诘问：如果道德必须排除一切感性动机，人如何"被推动"去行动？道德律若是纯粹理性的规定，它在有限存在者（人）身上如何取得"动力"（Triebfeder）？第二章"纯粹实践理性的动机"给出著名的答案：<strong>敬重（Achtung）</strong>。</p>
+      <p>康德的用词分析如手术刀。Achtung 本义是"注意/尊重"，他把这种情感当作<strong>唯一由理性自己产生的情感</strong>。它的结构：道德律在人心中"贬抑"（demütigt）自爱——由感性偏爱构成的自我感觉在法则的威严前相形见绌；同时又因自己的理性身份与法则同一而"提升"（erhebt）。敬重是"自我贬抑与自我升华的综合"：对法则的敬重、对人格中人性尊严的敬重。这种双重结构使它既非痛苦也非快乐，而是崇高感的近亲。</p>
+      <p><strong>为什么"敬重"不违反道德的纯粹性。</strong>康德不是把情感当作道德的根据（那将是他律），而是当作道德律在感性主体上的<strong>作用方式</strong>：法则借敬重之情把自己呈现为动机——道德律"自己产生对自己的敬重"。情感的来源依然纯粹是理性；敬重是"道德法则对感受主体的主观作用"，不是独立的动机源泉。这是康德道德心理学的精密处：<strong>动机的纯粹性</strong>（来源上）与<strong>心理的现实性</strong>（呈现上）两不偏废。</p>
+      <p>由此康德重划"心灵对道德的感受性"：<strong>道德感</strong>（moralisches Gefühl）不是道德的根据而是道德律的感性显现方式；<strong>良心的严厉</strong>不应被解释为害怕惩罚（那是对后果的算计，与道德无关），而是敬重的自我检审形态。<strong>人格的尊严感</strong>、对他人之人格的敬重、对一切非道德的"价值感"（功名利禄的轻慢）——都统一于敬重的情感结构。康德在此章为现代"人的尊严"概念留下了最深的心理学锚点：尊严感的本质是敬重向自身的扩展。</p>
+      <p><strong>对感性动机的裁决不是消灭感性。</strong>康德明确说，道德不要求根除爱好（Neigung），只要求<strong>不让爱好参与立法</strong>——在意志的规定根据中排除爱好，而非在心灵中根绝之。爱好可以而且应当存在，但必须被"置于法则之下"；当爱好与义务一致时行动仍可称"合乎义务"，只是道德价值评估要谨慎对待动机来源。康德对"幸福"的态度也是如此——幸福本身无害，"只把幸福当作独立根据"才在禁令之列。</p>
+    </div>
+
+    <div class="passage">
+      <div class="pa-label">段落精读 · 敬重的结构</div>
+      <div class="pa-quote">敬重是理智所造成的情感……它损害自爱，因而是羞辱性的；但它同时又是敬重之对象对自身提升的根据，因而又是尊敬……敬重法则不是道德的动机，而宁可说是在主观上被视为动机的道德本身，因为纯粹实践理性拒绝一切与它竞争的要求……</div>
+      <div class="pa-src">《实践理性批判》分析论第二章（KpV 5:75–78，意译）</div>
+      <div class="pa-interp">
+        <p>这段把两个易错的点同时钉死。第一，敬重是"理智造成的"（durch intellektuelle Ursache gewirkt）情感——在康德的因果分类学里独一无二：一切其他情感由感性对象产生，唯敬重由<b>理念的表象</b>产生。第二，"敬重不是道德的动机"——这句最易被忽略：如果把敬重当独立动机，敬重就成了爱好的高级形式（等于"因为喜欢法则的庄严感而行动"——动机又落回感性）；敬重只能被理解为"<b>道德本身</b>在主观上的动机呈现"，即法则自我显现的通道。规范性的来源永远只有一个：法则。</p>
+        <p>后世哲学家对此态度分裂。叔本华《伦理学的两个基本问题》讥嘲康德"理性绝不会成为动机"；尼采视"敬重"为奴隶道德的伪装（对强力意志的贬抑）；相反，现象学伦理学（舍勒《伦理学中的形式主义》正是以批判康德为靶子，主张价值感受的自律）与当代康德主义者（如巴伯、赫尔曼）都以不同方式重建"道德感受性"的独立地位。康德的敬重学说是这场两百年论战的策源地。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 善恶概念 ==================== -->
+<section class="sec reveal" id="good-evil">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>善与恶：实践理性的对象概念</h2>
+      <span class="span">从法则到善恶，而非相反</span>
+    </div>
+    <div class="body-text">
+      <p>日常与古代伦理学大多从"什么是善"出发（柏拉图的善理念、亚里士多德的 eudaimonia、功利主义的快乐）——先有善的概念，再推出"应当追求善"的法则。康德彻底倒转这一顺序：<strong>善与恶的概念不能在法则之先，而必须在法则之后</strong>（"善恶概念不可能在道德法则之前被规定……而只在法则之后并通过法则被规定"）。这是康德伦理学"形式主义"更精确的含义：不是拒绝善恶，而是把善恶定位为<b>法则所派生的</b>第二序概念。</p>
+      <p><strong>论证骨架</strong>：若"善"先行于法则而独立定义，法则就只能是"善的工具"——追求善的手段规则；这样一来法则的权威依附于善的内容，而一切"内容"皆经验性的（我们仅能从欲求中发现什么被当作善）——于是法则降为假言命令（"如果欲善，当如何如何"），这正是已被排除的他律。所以概念秩序必须反转：<strong>先有意志的先天法则（形式），善恶对象随后被定义为"法则是其动机"或"违背其动机"的对象</strong>——善是"纯粹实践理性按其法则所必然意愿的对象"，恶是"理性所必然拒绝的对象"。康德在第二章还仿照第一批判的范畴表绘制了一张实践概念表（学界通称"自由范畴表"），各条目的译解不尽一致，但其制表原则清晰可辨：<strong>善恶的一切规定全部从道德法则引出——从意志形式推导对象概念，而非从对象经验提炼法则</strong>。</p>
+      <p><strong>意志的自由抉择：根本恶的伏笔。</strong>善恶概念的自由主义秩序也预示了多年后《单纯理性限度内的宗教》中著名的"根本恶"（das radikale Böse，1793）学说：恶的来源不能归给感性（感性只是条件），只可能出于意志自身把爱好置于法则之上的<b>自由抉择</b>——恶是准则的颠倒（Gesinnung，品向的取向颠倒），而非单纯"缺乏善"。由此康德与一切"人性天然向善/向恶"的简单化论断保持距离。这是第二批判善恶论的宗教哲学回响（本站"公设"一节及"生平时代"页1792-93年条目将进一步述及）。</p>
+      <p><strong>动机论与良知的位置（KpV 第三章）。</strong>分析论第三章"论纯粹实践理性的动机"（Von den Triebfedern）处理本章开头提出的诘问：道德律如何在感性主体上起作用——道德情感的"痛感"（自爱的贬抑）与"提升"（人格的高扬）之结合，前一节已详。至于"良知"（Gewissen），康德在别处给出了它最著名的形象：<strong>内心的法庭</strong>——这个法官—被告—辩护律师三层构造的系统展开见于其后的《道德形而上学》德性论（1797）与《单纯理性限度内的宗教》；第二批判中的相应讨论则是它的先声。动机论是全书中篇幅最短的章节之一，但康德后来道德教育思想的全部种子在此发芽。</p>
+      <p><strong>全书的收束：实践理性的方法论。</strong>与分析论、辩证论并列的第二部"方法论"（Methodenlehre）常被读者忽略，却是康德教育哲学的纲领：道德不能独断地灌输（恐吓式的地狱说教、权威式的律令背诵），也不能重蹈"应用理性在青少年身上失效"的旧路——它主张以<strong>问答式对话</strong>从学习者自己的理性中唤出道德判断（苏格拉底式助产术），并以"义务的践行"而非"经验的规训"培养意向。批判伦理学由此不只描述道德，还规定道德如何被教。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 辩证论：至善 ==================== -->
+<section class="sec reveal" id="dialectic">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>辩证论：至善的难题</h2>
+      <span class="span">德福一致的必然要求</span>
+    </div>
+    <div class="body-text">
+      <p>理论理性的辩证论是"幻相的病理学"，实践理性的辩证论却是一种<strong>现实的冲突</strong>：纯粹实践理性在追求"无条件的总体"（至善）时，遇到一个自然倾向必然提出、却看似无解的矛盾。康德名之为实践理性的二律背反。</p>
+      <p><strong>何为"至善"（das höchste Gut）</strong>：德性与幸福的完满统一。两个不可相互还原的成分：德性作为"配得上幸福的资格"（Würdigkeit, glücklich zu sein）是至善的至上条件；幸福则是"世上一个理性存在者的状态，对他而言一切事情都按照他的愿望与意志进行"（狭义的幸福）。伦理学的"最完满的对象"必须是两者的结合——德福一致（summum bonum 的传统结构被康德改造为可证成的目标）。</p>
+      <p><strong>未加批判的冲突</strong>：实践理性要求追求至善；可经验告诉我们——德性与幸福在现象界几乎从不相称（好人受难、恶人得福）。于是两种态度对立：伊壁鸠鲁派（德性即幸福/幸福里产生德性）与斯多亚派（德性即幸福，幸福的其余成分可弃）都试图把二者等同或化约——康德判之为"把至善的两个不同部分强行同一"。另一条路则干脆接受德福分裂（一切经验论、无神论的结论），从而放弃至善的可能性，最终使道德追求丧失"对象"。实践理性的需要与之抗衡："德福一致应当可能，因为我被道德律要求去追求它"——若不可能，道德律对我们而言就成了无法实现其对象的空洞要求（康德在辩证论开篇正是以类似方式施压：道德律若无实现的希望，"至善"这一无条件对象随之不可能，纯粹实践理性将自相冲突——此为意译）。这就是实践理性辩证论要<strong>消解的二律背反</strong>：与理论理性的做法不同——它必须为"德福一致的可能性"找到确实的根据，而非仅否定双方。</p>
+      <p><strong>这条背反的精确形态。</strong>写成命题即：正题——追求幸福必然产生德性的根据（把幸福当动机，德性只是聪明的副产品）；反题——德性必然产生幸福（有德者必得其福）。两命题在现象界同假：经验既非"幸福的人皆有德"，也非"有德的人皆幸福"。康德的消解：冲突的根源在于把"德福联结"当成了<strong>自然因果的联结</strong>——仿佛幸福是德性在感性世界按自然律结出的果实。批判哲学的裁决：德福一致不是自然的必然，而是<b>实践的悬设任务</b>——道德律要求"尽力使之成为现实"，其可能性的条件（灵魂不朽的无限进程、上帝的道德世界秩序）随之被公设。由此辩证论不是"发现世界本来就德福一致"，而是"揭示道德行动者因道德本身而有权希望一致"——<strong>至善从宇宙论事实转为实践性的希望结构</strong>，这是康德对古希腊至善传统（自柏拉图《斐多》至斯多亚派）最深的改造。</p>
+      <p><strong>德福的两种联结方式：修德与配福。</strong>康德还作了精细的区分（学界常称"配当的幸福"结构）：至善中德性与幸福不是"等价交换"（德的分量换福的分量），而是"资格—兑现"——德性给出的是<b>配得上幸福</b>的资格（Würdigkeit），幸福的最终分配须与资格成比例。世界上有一类存在者配得上幸福却自觉地不把它当行动动机——这正是人格尊严的又一层含义：把幸福当动机的行动连"配福"的资格都丧失了（因为动机已不纯粹）。这个结构既保留了幸福的价值（不被斯多亚式地贬弃），又守住了德性的至上性（不被伊壁鸠鲁式地化约为"长远的幸福算计"）——康德自认为这是对两大古代伦理学流派之争的最终裁决。</p>
+    </div>
+
+    <div class="arg-box">
+      <div class="arg-label">论证还原 · 至善的必然性</div>
+      <div class="arg-title">为何被道德律所要求</div>
+      <div class="arg-en">KpV 5:108–115</div>
+      <div class="arg-step">
+        <div class="arg-num">1</div>
+        <div class="arg-body"><h5>道德律命令"使至善成为可能"</h5><p>道德法则规定意志，使至善成为意志的对象——追求德福一致是理性意志的<em>必然</em>目标；道德若止于"履行义务"的空形式，不是完整的实践理性（实践理性必须有实践可能的对象）。</p></div>
+      </div>
+      <div class="arg-step">
+        <div class="arg-num">2</div>
+        <div class="arg-body"><h5>"应当"蕴含"能够"</h5><p>义务命令追求至善；命令仅当对象可能时才严肃有效——道德律不可命令不可能之事。故至善在世界中被实现的可能性必须成立。</p></div>
+      </div>
+      <div class="arg-step">
+        <div class="arg-num">3</div>
+        <div class="arg-body"><h5>德福在自然界的按比例连接不容自然保证</h5><p>经验显示：世界中幸福与德性之间没有任何可辨识的因果对应；个体也不能仅凭努力保证德福一致（幸福的许多条件独立于人的意志）——那么实现按比例分配德福的权能必须在自然原因之外预设。</p></div>
+      </div>
+      <div class="arg-step">
+        <div class="arg-num">4</div>
+        <div class="arg-body"><h5>结论：两大公设的必要性</h5><p>承认至善可能 → 须承认灵魂（作为道德主体的无限延续，以配得上完全的德性）不朽，以及上帝（自然的世界原因与道德的世界原因的统一——把德福比例实现于世的能力）实存。此二者不是为了"幸福"的私念，而是出自道德的理由被"公设"。</p></div>
+      </div>
+      <div class="arg-concl"><b>结论：</b>由道德要求至善可能，实践理性必须有权预设其实现条件——这一"必须（实践必然性）"就是公设的精确逻辑身份。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 三大公设 ==================== -->
+<section class="sec reveal" id="postulates">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>自由、灵魂不朽、上帝：三大实践公设</h2>
+      <span class="span">道德信仰的理性构成</span>
+    </div>
+    <div class="body-text">
+      <p>"公设"（Postulat）在此是实践理性的特殊逻辑操作：<strong>不是理论的证明，也不是任意的想象——而是实践上必然的预设</strong>。康德的原则句："凡是无上的实践法则所要求的可能性条件，本身即被公设。"公设的理性产物他称为<strong>道德信仰</strong>（moralischer Glaube）——不是"认为属实"的投机判断，而是"必须当作行动的根据"的实践确信，与知识有严格的身份区别。</p>
+      <h4>其一：意志自由（已在分析论确证，公设处总括）</h4>
+      <p>自由的实在性由道德律的理性事实给出（见前）。在公设章节它作为另两个公设的<strong>模型</strong>：自由的公设表明——一个理念虽无理论根据，却可以由实践的必然性获得实在性；上帝与灵魂不朽按同一逻辑被引入。这是批判宗教观的根基转移：<strong>上帝、自由、不朽在理论理性中被判"不可知"，在实践理性中以"必须被预设"的身份复出</strong>——康德的宗教哲学（宗教的道德化）由此奠基。注意公设的身份限制：它们只对"实践地运用理性"的主体有效；一旦有人把它们改作"理论对象"重新回到独断神学，批判法庭立即重新接管。康德由此与正统神学保持精细的距离——上帝存在作为"实践上必然的预设"，与"被证明的对象"永远不同。</p>
+      <h4>其二：灵魂不朽</h4>
+      <p>道德律要求完全的适意于法则——"神圣性"（Heiligkeit），即意志与法则的完全一致。但有限理性存在者在时间中向这一目标的接近是<strong>无限的进程</strong>——任何有限的今生都到不了完全的道德完善。道德命令却严肃要求"成为神圣的人"。故必须预设：<strong>向完全善的无限进展之可能性</strong>——即同一道德主体的无限延续（灵魂不朽）。注意公设的功能细节：不朽不是给"我死后"的想象画图（不负责任何来世图景），只是把"无限进步的道德主体"设为可能条件。康德甚至说，若有人设想一个有限生命而要达至神圣，那"绝对不可能"——所以不朽不是安慰，而是道德命令的逻辑伴随项。至于道德宗教论题（"善的生活方式的仆人"）和"作为道德立法者的上帝"之关系，第三公设中展开。</p>
+      <h4>其三：上帝存在</h4>
+      <p>至善要求德福一致；在世界现象中，德性与幸福的联结没有任何可以被认识的因果统一——一个道德存在者（有限的人）绝无能力把"应当"的比例强加于自然。因此必须预设一位"<strong>道德的世界原因</strong>"——上帝：他把自然与道德的领域统一起来，使至善的实现可能。此推论被后世称为<strong>道德论证明</strong>（moral argument，与第一批判摧毁的三种思辨证明严格区分）。康德对它的态度极其严格：这不是给传统神学开新的后门——上帝被预设为至善可能性的条件，而非被"证明"的存在者；他不给上帝任何"人格"的具体属性（三位一体、全能的时间干预等），只保留至善条件所要求的逻辑内容。传统神学的一切教义在康德这里要么是"道德信仰的象征"，要么是"伦理诠释的对象"（《宗教》一书详之）。</p>
+      <h4>道德律的世界观：实践理性优先</h4>
+      <p>辩证论以"实践理性的优先性"总收：思辨理性必须让自己的知识为实践理性的需要让路——这个优先地位是有严格限制的（不得反哺为理论知识——一旦如此即迷信）。康德著名的总结句：第一批判让"上帝、自由、不朽"的一切思辨证明失效，本是为它们"扫清障碍"——驱逐僭妄的理论要求，留下纯粹道德的根基；实践理性把它们作为道德必要的预设接受下来，比思辨独断论"更接近"了它们。这就是康德宗教哲学的独特路径：<strong>上帝作为道德的原因，而非作为创世者或全能力量</strong>；宗教的内蕴是道德（"宗教就是把我们的一切义务认作上帝的命令"——《学科之争》中名句）。</p>
+    </div>
+
+    <div class="passage" id="conclusion">
+      <div class="pa-label">段落精读 · 结语</div>
+      <div class="pa-quote">有两样东西，我们愈经常愈持久地加以思索，它们就愈使心灵充满始终新鲜不断增长的景仰和敬畏——我头上的星空和我心中的道德律。</div>
+      <div class="pa-src">《实践理性批判》结论首句（KpV 5:161–162）</div>
+      <div class="pa-interp">
+        <p>这是西方哲学被引用最多的句子之一，但康德原文的庄重在于它不是抒情的尾巴，而是<b>一个压缩的哲学论证结构</b>。第二段紧接着展开：星空代表"从我开始的外部感官世界"——我被卷入其中的普遍联络与规律，展现"我作为世界一分子"的渺小（消解于万千世界的一粒尘埃）；道德律代表"从我出发的内部世界"——它把我当作一个"看不见的自我"（纯粹理性主体），提示我作为一个本体（intelligibel）的人格，不被自然秩序溶解，而与整个自然的必然性相对独立地"通过纯粹实践理性获得内部确证"。两句之别是两种"伟大"之别：世界的伟大在尺度，人格的伟大在超越尺度的尊严。</p>
+        <p>结论第三至第五段继续追问：这两个世界的联结如何可能（自然与自由的沟通）？康德在结尾把答案明确指向"判断力的中介"——而第三批判正是这一句的兑现。所以读第二批判结尾，必须意识到它是通往1790年的桥。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 影响与批评 ==================== -->
+<section class="sec reveal" id="legacy">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>影响与批评</h2>
+      <span class="span">形式主义论战两百年</span>
+    </div>
+    <div class="body-text">
+      <p><strong>席勒的"良知的疑虑"</strong>：最早的著名批评。席勒先在《论优雅与尊严》（Über Anmut und Würde，1793）中指责康德义务观把感性当作道德的天敌，随后又在《赠辞》讽刺诗（Xenien，1796，与歌德合作）中留下名句："我乐意为朋友效劳，可惜却出于爱好去做——于是我常自问：我究竟有没有道德？"。对这层批评，康德的立场足以回应（他在多处文本、特别是《道德形而上学》德性论导论中重申）：合乎义务的同时带有爱好的行动并非不道德，<strong>只有当爱好取代义务成为意志的规定根据时，行动才丧失道德价值</strong>——义务要求排除的不是爱好的存在，而是爱好参与<b>规定意志</b>。论战推动了"审美伦理"与"道德严格性"的长期张力。</p>
+      <p><strong>黑格尔的形式主义指控</strong>：在《法哲学原理》与早期神学著作中，黑格尔反复宣称绝对命令的"纯形式"给它带来"空洞"与"不可规定性"——绝对命令不能自己推出任何具体义务，具体内容总是来自外部（法学、习俗），因此"形式主义"其实暗地里依赖定在的社会秩序；又以"黑格尔式反转"把康德的"良心"批评为可能转向恶的"形式的良心"。这一批评奠定了后来"规范伦理中形式与内容"之争的框架。后来的叔本华（《道德的基础》1840)则从意志形而上学全面否定：理性只能"指导"动机，不能是动机——命令的"应当"是神学的"变相"。</p>
+      <p><strong>英美康德主义的复兴。</strong>二十世纪下半叶起，学者们以新的论证工具重建康德伦理学：<strong>罗尔斯</strong>《正义论》(1971)明确援引康德的自律概念，"康德式的建构主义"（Kantian constructivism）成为当代政治哲学核心方法之一；<strong>科斯嘉</strong>（Christine Korsgaard，The Sources of Normativity，1996）把康德读作"规范性来源"问题的答案（实践同一性的自我构成），她的"创造的目的王国"论成为当代自律理论的代表；<strong>奥尼尔</strong>（Onora O'Neill）以"推理的限制"重建绝对命令；<strong>赫尔曼</strong>（Barbara Herman）重建"价值取向"补充形式主义的"空洞"；<strong>盖耶尔</strong>与<strong>蒂蒙斯</strong>则从元伦理学争论"康德是实在论者还是建构论者"。<strong>法兰克福学派</strong>：阿佩尔与哈贝马斯的商谈伦理学以"沟通理性"改造康德的普遍化检验，把"目的王国"发展为"理想言谈情境"。</p>
+      <p><strong>批评的四条经典线</strong>：①动机纯度问题——直觉上合乎义务同有爱好的行动似乎不应被贬低（当代"道德运气"讨论 Williams/Nagel 与之相邻）；②空洞问题——绝对命令能否产生具体义务（universalizability 的技术性挑战：两准则都可能通过/不可能通过的悖论例）；③情感地位——舍勒、里德尔、努斯鲍姆以"情感伦理学"质疑"理性独立立法"的心理可行性；④公设的可理解性——上帝与不朽作为"实践必然预设"的逻辑身份是否成立（当代 Kerr、Wood 等做哲学史与神学澄清）。这些批评本身成就了庞大的当代康德研究工业——第二批判的身后地位由此可鉴。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== 阅读建议 ==================== -->
+<section class="sec reveal" id="read">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2>阅读建议</h2>
+      <span class="span">从奠基到KpV</span>
+    </div>
+    <div class="path-box">
+      <div class="path-step">
+        <div class="ps-num">1</div>
+        <div class="ps-body">
+          <h4>先读《道德形而上学奠基》</h4>
+          <p>第二批判预设《奠基》的全部结论（绝对命令、自律、目的王国）。若时间紧，至少精读《奠基》第一、二章——那是康德伦理学最清晰、最优美的文本。</p>
+        </div>
+      </div>
+      <div class="path-step">
+        <div class="ps-num">2</div>
+        <div class="ps-body">
+          <h4>第二批判按"命题"细读</h4>
+          <p>本书行文是压缩的批判体。建议以"定理"为单位：定理I–IV（排除质料原则）→ 理性事实（§5–6）→ 唯一命令（§7）→ 动机论（第二章）→ 善恶概念（第二章后半）→ 至善与公设（辩证论）→ 方法论。两个关键文本位置特别提示：KpV 5:31（定理IV后的注释，康德重申"形式的实践法则"的含义）与结论章（星空与道德律——它是理解全书总纲的最后一环）。结论不可跳过。</p>
+        </div>
+      </div>
+      <div class="path-step">
+        <div class="ps-num">3</div>
+        <div class="ps-body">
+          <h4>延伸阅读：批判伦理学的展开脉络</h4>
+          <p>读完第二批判后的下一篇自然是《道德形而上学》（1797）——法权论与德性论把批判原则落实为具体义务体系，能反过来帮助你理解抽象的绝对命令如何"落地"。若对"根本恶"（本书善恶概念的后续）有兴趣，《单纯理性限度内的宗教》第一部（1793）是必读；若关心康德伦理学与当代的对接，可直接从科斯嘉《规范性的来源》与罗尔斯《正义论》第40节（"康德式的正义解读"）入手——两书都是第二批判在二十世纪的最强回声。</p>
+        </div>
+      </div>
+      <div class="path-step">
+        <div class="ps-num">4</div>
+        <div class="ps-body">
+          <h4>配套读物</h4>
+          <p>中译：邓晓芒译杨祖陶校《实践理性批判》（人民大学"康德著作全集"李秋零译本亦可）；二手经典：Lewis White Beck《A Commentary on Kant's Critique of Practical Reason》（英语标准研究）；艾里森（Henry Allison）Kant's Theory of Freedom（英语当代经典）；中文学界：邓晓芒《康德哲学讲演录》与《冥河的摆渡者》相关章节、李秋零译《单纯理性限度内的宗教》导言均可参考。</p>
+        </div>
+      </div>
+    </div>
+    
+<div class="read-map">
+      <div class="rm-title">《实践理性批判》原著精读路线（页码为普鲁士科学院版 AA5 卷）</div>
+      <table>
+        <tr><th>原书章节</th><th>页码</th><th>本站对应</th><th>阅读目标</th></tr>
+        <tr><td class="rm-sec">序言</td><td>5:1–14</td><td>本站“总览”</td><td>实践理性优先性的总纲</td></tr>
+        <tr><td class="rm-sec">导言</td><td>5:15–22</td><td>本站“导言·镜像结构”</td><td>实践的定义与“对象—知识”反向结构</td></tr>
+        <tr><td class="rm-sec">定理I–IV</td><td>5:21–33</td><td>本站“法则与准则·定理链”</td><td>排除质料原则→形式原则</td></tr>
+        <tr><td class="rm-sec">§6–7 理性事实</td><td>5:28–36</td><td>本站“理性事实”</td><td>道德律为何“不被推导”</td></tr>
+        <tr><td class="rm-sec">§8 唯一命令</td><td>5:36–42</td><td>本站“法则与准则”</td><td>准则普遍化的立法性表述</td></tr>
+        <tr><td class="rm-sec">善恶概念</td><td>5:57–64</td><td>本站“善与恶”</td><td>从法则到善恶的派生秩序</td></tr>
+        <tr><td class="rm-sec">动机论</td><td>5:71–89</td><td>本站“敬重与动机”</td><td>敬重的结构、唯一理性情感</td></tr>
+        <tr><td class="rm-sec">辩证论·至善</td><td>5:107–124</td><td>本站“辩证论·至善”</td><td>德福一致的必然对象与背反</td></tr>
+        <tr><td class="rm-sec">三大公设</td><td>5:124–139</td><td>本站“三大公设”</td><td>道德信仰的精确逻辑身份</td></tr>
+        <tr><td class="rm-sec">结论</td><td>5:161–163</td><td>本站“结语言录·段落精读”</td><td>星空与道德律的哲学结构</td></tr>
+      </table>
+    </div>
+    <div class="ref-box">
+      <div class="rb-label">站内关联</div>
+      <div class="rb-items">
+        <a class="rb-item" href="pure.html#antinomy">第三组二律背反（自由问题的理论入口）</a>
+        <a class="rb-item" href="judgment.html">判断力批判（道德与自然的沟通）</a>
+        <a class="rb-item" href="concepts.html#kategorischer">术语：绝对命令诸公式</a>
+        <a class="rb-item" href="concepts.html#postulat">术语：公设的逻辑身份</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="pn-nav" aria-label="批判间导航">
+  <div class="wrap">
+    <a class="pn-prev" href="pure.html"><span class="pn-dir">← 上一部</span><span class="pn-name">纯粹理性批判</span></a>
+    <a class="pn-next" href="judgment.html"><span class="pn-dir">下一部 →</span><span class="pn-name">判断力批判</span></a>
+  </div>
+</nav>
+
+<footer>
+  <div class="wrap">
+    <p>实践理性批判 · 深度导读</p>
+    <p class="foot-meta">制作：<span class="maker">淮南有个橘</span> ｜ 2026-10 ｜ 仅供学习交流</p>
+  </div>
+</footer>
+
+<button class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<div class="tool-fab" id="tool-fab">
+  <button id="font-increase" title="页面放大" aria-label="页面放大">A+</button>
+  <button id="font-decrease" title="页面缩小" aria-label="页面缩小">A−</button>
+  <button id="dark-toggle" title="暗黑模式" aria-label="切换暗黑模式">◐</button>
+</div>
+<script>
+const obs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in');});},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+(function(){
+  var fab=document.getElementById('tool-fab');
+  if(!fab)return;
+  var btns=fab.querySelectorAll('button');
+  btns.forEach(function(b){b.classList.add('show');});
+  var toTopBtn=document.querySelector('.to-top');
+  if(toTopBtn){
+    window.addEventListener('scroll',function(){if(window.scrollY>400)toTopBtn.classList.add('show');else toTopBtn.classList.remove('show');});
+  }
+  var zoomLevel=100;
+  var html=document.documentElement;
+  var fabEl=document.getElementById('tool-fab');
+  var toTop=document.querySelector('.to-top');
+  var ZOOM_STEPS=[75,100,125,150];
+  function applyZoom(){
+    html.style.zoom=zoomLevel+'%';
+    var rev=(100/zoomLevel*100).toFixed(2)+'%';
+    if(fabEl)fabEl.style.zoom=rev;
+    if(toTop)toTop.style.zoom=rev;
+    document.body.classList.toggle('zoomed',zoomLevel>100);
+  }
+  var saved=localStorage.getItem('kant-zoom');
+  if(saved){zoomLevel=parseInt(saved);applyZoom();}
+  document.getElementById('font-increase').addEventListener('click',function(){
+    var idx=ZOOM_STEPS.indexOf(zoomLevel);
+    if(idx<ZOOM_STEPS.length-1){zoomLevel=ZOOM_STEPS[idx+1];applyZoom();localStorage.setItem('kant-zoom',zoomLevel);}
+  });
+  document.getElementById('font-decrease').addEventListener('click',function(){
+    var idx=ZOOM_STEPS.indexOf(zoomLevel);
+    if(idx>0){zoomLevel=ZOOM_STEPS[idx-1];applyZoom();localStorage.setItem('kant-zoom',zoomLevel);}
+  });
+  var isDown=false,startX=0,startY=0,scrollX=0,scrollY=0;
+  document.body.addEventListener('mousedown',function(e){
+    if(!document.body.classList.contains('zoomed'))return;
+    if(e.target.closest('a,button,.to-top,.tool-fab,nav,.sub-nav'))return;
+    isDown=true;document.body.classList.add('dragging');
+    startX=e.clientX;startY=e.clientY;
+    scrollX=window.scrollX;scrollY=window.scrollY;
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove',function(e){
+    if(!isDown)return;
+    window.scrollTo(scrollX-(e.clientX-startX),scrollY-(e.clientY-startY));
+  });
+  document.addEventListener('mouseup',function(){isDown=false;document.body.classList.remove('dragging');});
+  var dt=document.getElementById('dark-toggle');
+  if(localStorage.getItem('kant-dark')==='1'){document.body.classList.add('dark');dt.classList.add('active');}
+  dt.addEventListener('click',function(){
+    document.body.classList.toggle('dark');var on=document.body.classList.contains('dark');
+    dt.classList.toggle('active',on);localStorage.setItem('kant-dark',on?'1':'0');
+  });
+})();
+</script>
+<script>
+(function(){var pb=document.getElementById('progressBar');if(!pb)return;var up=function(){var h=document.documentElement,b=document.body;var max=h.scrollHeight-h.clientHeight;var p=max>0?(h.scrollTop||b.scrollTop)/max*100:0;pb.style.width=p+'%';};window.addEventListener('scroll',up,{passive:true});window.addEventListener('resize',up);up();})();
+</script>
+</body>
+</html>
